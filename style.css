@@ -1,0 +1,123 @@
+body{
+    background-color: white;
+}
+
+.navbar{
+    background-color: black;
+    padding-top:41px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    font-size: large;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: white;
+}
+.navbar :hover{
+    color: green;
+}
+
+.navbar .loimg{
+    color: white;
+    margin-right: 200px;
+}
+
+.logo{
+    height: 35px;
+    width: 50px;
+    margin-top: 5px;
+    
+}
+
+.booktrial{
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.booktrial:hover{
+    background-color: aqua;
+}
+.para1{
+    background-color: antiquewhite;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 90px;
+    width: 1515px;
+}
+
+.para1 p{
+    margin-left: 10px;
+}
+.para1 p span{
+    font-size: 50px;
+}
+.imagesec{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.imagesec > div{
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 7px;
+}
+.imagesec .img1{
+    height: 250px;
+    width: 300px;
+}
+.imagesec .img2{
+    height: 250px;
+    width: 300px;
+}
+.imagesec .img3{
+    height: 250px;
+    width: 300px;
+}
+.imagesec .img4{
+    height: 250px;
+    width: 300px;
+}
+.imagesec .img5{
+    height: 250px;
+    width: 300px;
+}
+.imagesec .img6{
+    height: 250px;
+    width: 300px;
+}
+
+.desc{
+    background:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fstock-photo%2F1500px.html&psig=AOvVaw2GP84TAqtF1Ok7g9TZNFGa&ust=1667725217630000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJCj8NTWlvsCFQAAAAAdAAAAABAJ) no-repeat;
+}
+.desc{
+    border: 2px solid black;
+    height: 350px;
+    width: 1500px;
+}
+.desc p{
+    display: flex;
+    justify-content: center;
+}
+.desc h1{
+    display: flex;
+    justify-content: center;
+}
+
+.desc .booknow{
+    width: 70px;
+
+    margin-left: 700px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.booknow :hover{
+    background-color:darkgray;
+}
+.last{
+    display: flex;
+    column-gap: 180px;
+}
